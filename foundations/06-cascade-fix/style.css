@@ -1,3 +1,11 @@
+/* 
+- Specificity Rules: ID > Class > Type selectors
+  - Special symbols such as universal selector (*) or combiantors (+,~,> and empty space) do not have specificity
+  - If selectors have equal specificity, the cascade checks the amounts of each selector type, more type > less types
+- CSS properties can be inherited from parents by child elements
+- Rule order: final factory if all things equals. Last defined rule is the winner.
+*/
+
 .para,
 .small-para {
   color: hsl(0, 100%, 50%);
